@@ -1,5 +1,5 @@
 name: material_io_ext
-description: material.io extenstion methods.
+description: material.io extenstion methods. collection of extenstions methods to create widgets as per material.io guidelines.
 version: 0.0.1
 homepage: https://github.com/ravikovind/material_io_ext
 

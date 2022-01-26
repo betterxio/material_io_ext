@@ -1,11 +1,7 @@
-<!-- 
-write readme for flutter package
--->
-
 material.io extenstion methods.
 
 # material_io_ext
-it is collection of extenstions methods to create widgets as per material.io guidlines.
+it is collection of extenstions methods to create widgets as per material.io guidelines.
 
 # Installing
 
@@ -63,6 +59,6 @@ Widget headline6 = 'Headline 6'.headline6(context);
 ```
 
 ## References
-* [material.io docs](https://material.io/)
+[Material io Docs](https://material.io/)
 
 

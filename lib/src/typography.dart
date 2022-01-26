@@ -1,11 +1,11 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
+/// Extension on [String] that allows to easily convert a string to a Typography Text [Widget].
 extension Typography on String {
-
   Widget text(BuildContext context) => Text(this);
 
-  //headline 1
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline1].
   Widget headline1(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -36,7 +36,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 1 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline1] with Copywith [TextStyle].
   Widget headline1Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -116,7 +116,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 2
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline2].
   Widget headline2(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -147,7 +147,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-//headline 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline2] with Copywith [TextStyle].
   Widget headline2Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -227,7 +227,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-//headline 3
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline3].
   Widget headline3(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -258,7 +258,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 3 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline3] with Copywith [TextStyle].
   Widget headline3Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -337,7 +337,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 4
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline4].
   Widget headline4(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -368,7 +368,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 4 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline4] with Copywith [TextStyle].
   Widget headline4Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -448,7 +448,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 5
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline5].
   Widget headline5(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -479,7 +479,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 5 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline5] with Copywith [TextStyle].
   Widget headline5Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -559,7 +559,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 6
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline6].
   Widget headline6(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -590,7 +590,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //headline 6 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline6] with Copywith [TextStyle].
   Widget headline6Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -670,7 +670,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //subtitle 1
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.subtitle1].
   Widget subtitle1(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -701,7 +701,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //subtitle 1 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.subtitle1] with Copywith [TextStyle].
   Widget subtitle1Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -781,7 +781,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //subtitle 2
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.subtitle2].
   Widget subtitle2(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -812,7 +812,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //subtitle 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.subtitle2] with Copywith [TextStyle].
   Widget subtitle2Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -892,7 +892,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //body text 1
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.bodyText1].
   Widget bodyText1(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -923,7 +923,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //body text 1 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.bodyText1] with Copywith [TextStyle].
   Widget bodyText1Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -1003,7 +1003,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //body text 2
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.bodyText2].
   Widget bodyText2(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -1034,7 +1034,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //body text 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.bodyText2] with Copywith [TextStyle].
   Widget bodyText2Custom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -1114,7 +1114,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //caption
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.caption].
   Widget caption(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -1145,7 +1145,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //body text 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.caption] with Copywith [TextStyle].
   Widget captionCustom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -1225,7 +1225,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //button
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.button].
   Widget button(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -1256,7 +1256,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //button 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.button] with Copywith [TextStyle].
   Widget buttonCustom(BuildContext context,
           {Key? key,
           bool inherit = true,
@@ -1336,7 +1336,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //overline
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.overline].
   Widget overline(BuildContext context,
           {Key? key,
           StrutStyle? strutStyle,
@@ -1367,7 +1367,7 @@ extension Typography on String {
         textHeightBehavior: textHeightBehavior,
       );
 
-  //button 2 custom
+  /// [String] to a [Text] widget with the [TextStyle] set to [Typography.overline] with Copywith [TextStyle].
   Widget overlineCustom(BuildContext context,
           {Key? key,
           bool inherit = true,
