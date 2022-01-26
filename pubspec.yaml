@@ -1,7 +1,7 @@
 name: material_io_ext
 description: material.io extenstion methods.
 version: 0.0.1
-homepage:
+homepage: https://github.com/ravikovind/material_io_ext
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
