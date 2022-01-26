@@ -59,6 +59,6 @@ Widget headline6 = 'Headline 6'.headline6(context);
 ```
 
 ## References
-[Material io Docs](https://material.io/)
+[https://material.io/](https://material.io/)
 
 
