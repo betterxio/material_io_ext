@@ -1,7 +1,5 @@
-material.io extenstion methods.
-
 # material_io_ext
-it is collection of extenstions methods to create widgets as per material.io guidelines.
+It is collection of extenstions methods to create widgets as per material.io guidelines.
 
 # Installing
 
@@ -59,6 +57,6 @@ Widget headline6 = 'Headline 6'.headline6(context);
 ```
 
 ## References
-[https://material.io/](https://material.io/)
+Please visit [https://material.io/](https://material.io/)
 
 
