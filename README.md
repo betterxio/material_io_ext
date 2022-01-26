@@ -9,7 +9,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  material_io_ext: any
+  material_io_ext: latest
 ```
 
 ### 2. Install it
@@ -57,6 +57,6 @@ Widget headline6 = 'Headline 6'.headline6(context);
 ```
 
 ## References
-Please visit [https://material.io/](https://material.io/)
+Please visit [https://material.io/](https://material.io/).
 
 

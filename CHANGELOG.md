@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Added Widget Extension to create Material.IO Buttons.
+
+## 0.0.3
+
+* Fixed a bug in the Widget Extension.
