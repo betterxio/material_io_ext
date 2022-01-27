@@ -1,6 +1,5 @@
 # material_io_ext
-It is collection of extenstions methods to create widgets as per material.io guidelines.
-
+It is a collection of extensions for creating widgets following material.io guidelines.
 # Installing
 
 ### 1. Depend on it

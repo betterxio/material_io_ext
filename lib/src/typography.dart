@@ -3,7 +3,42 @@ import 'package:flutter/material.dart';
 
 /// Extension on [String] that allows to easily convert a string to a Typography Text [Widget].
 extension Typography on String {
+  /// [String] to [Text] widget.
   Widget text(BuildContext context) => Text(this);
+
+  /// [String] to [Text] widget with [TextStyle].
+  Widget textWidget(
+    BuildContext context, {
+    Key? key,
+    TextStyle? style,
+    StrutStyle? strutStyle,
+    TextAlign? textAlign,
+    TextDirection? textDirection,
+    Locale? locale,
+    bool? softWrap,
+    TextOverflow? overflow,
+    double? textScaleFactor,
+    int? maxLines,
+    String? semanticsLabel,
+    TextWidthBasis? textWidthBasis,
+    TextHeightBehavior? textHeightBehavior,
+  }) =>
+      Text(
+        this,
+        key: key,
+        style: style,
+        strutStyle: strutStyle,
+        textAlign: textAlign,
+        textDirection: textDirection,
+        locale: locale,
+        softWrap: softWrap,
+        overflow: overflow,
+        textScaleFactor: textScaleFactor,
+        maxLines: maxLines,
+        semanticsLabel: semanticsLabel,
+        textWidthBasis: textWidthBasis,
+        textHeightBehavior: textHeightBehavior,
+      );
 
   /// [String] to a [Text] widget with the [TextStyle] set to [Typography.headline1].
   Widget headline1(BuildContext context,

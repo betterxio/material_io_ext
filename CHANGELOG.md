@@ -9,3 +9,6 @@
 ## 0.0.3
 
 * Fixed a bug in the Widget Extension.
+
+## 0.0.4
+* Fixed a bugs in the String/Widget Extension.
